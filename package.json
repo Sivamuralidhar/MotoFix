@@ -5,6 +5,8 @@
   "scripts": {
     "android": "bash -c 'react-native run-android'",
     "ios": "bash -c 'react-native run-ios'",
+    "web": "webpack serve --mode development",
+    "build:web": "webpack --mode production",
     "lint": "eslint .",
     "start": "bash -c 'react-native start'",
     "test": "jest"
