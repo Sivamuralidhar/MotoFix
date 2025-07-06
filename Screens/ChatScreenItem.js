@@ -44,6 +44,7 @@ export default ChatScreenItem = ({ onExtracted, item = {
             color: item.byAI && item.extractedStatus ? "red" : ColorConstants.secondaryColor,
             fontFamily: Fonts.Mulish_Bold,
         }}>{item.extractedMessage}</Text> : null}
+        }
         <Text style={{
             flexShrink: 1,
             fontSize: !item.byAI ? ValueConstants.size24 : ValueConstants.size18,
