@@ -3,7 +3,7 @@ import { TouchableOpacity, View, Text, Dimensions, StyleSheet, Animated, TextInp
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import ColorConstants from "../Utils/ColorConstants";
   
-import Fonts from " ../Utils/Fonts";
+import Fonts from "../Utils/Fonts";
 import ValueConstants from "../Utils/ValueConstants";
 import { generateRandomColor, generateRandomString } from "../Utils/Util";
 import { StringConstants } from "../Utils/StringConstants";

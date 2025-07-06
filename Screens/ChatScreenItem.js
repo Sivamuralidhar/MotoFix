@@ -3,7 +3,7 @@ import { TouchableOpacity, View, Text, Dimensions, StyleSheet, Animated, TextInp
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import ColorConstants from "../../Utils/ColorConstants";
 import ChatButton from "../ChatButton";
-import { withGlobalContext } from "../../CustomProvider/CustomProvider";
+import { withGlobalContext } from "../Provider/ThemeProvider";
 import GlobalButton from "../../CustomComponents/GlobalButton";
 import Fonts from "../../Utils/Fonts";
 import ValueConstants from "../../Utils/ValueConstants";

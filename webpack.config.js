@@ -41,10 +41,12 @@ module.exports = {
     extensions: ['.web.js', '.js', '.jsx', '.ts', '.tsx'],
     alias: {
       'react-native$': 'react-native-web',
+      'react-native-device-info': path.resolve(__dirname, 'Utils/DeviceInfoWebMock.js'),
       'react-native-vector-icons/FontAwesome': 'react-native-vector-icons/dist/FontAwesome',
       'react-native-vector-icons/MaterialCommunityIcons': 'react-native-vector-icons/dist/MaterialCommunityIcons',
       'react-native-vector-icons/AntDesign': 'react-native-vector-icons/dist/AntDesign',
     },
+    fullySpecified: false,
   },
   plugins: [
     new HtmlWebpackPlugin({

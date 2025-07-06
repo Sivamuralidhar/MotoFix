@@ -7,6 +7,7 @@ import SendItem from "./SendItem";
 import ChatScreenItem from "./ChatScreenItem"; 
 import Tts from 'react-native-tts';
 import ColorConstants from "../Utils/ColorConstants";
+import { withGlobalContext } from "../Provider/ThemeProvider";
 
 const ChatScreen = ({ ...props }) => {
     const [messages, setMessages] = useState([])

@@ -62,6 +62,12 @@ export const ThemeProvider = ({ children }) => {
 
 export const useTheme = () => useContext(ThemeContext);
 
+export const withGlobalContext = (Component) => {
+  return (props) => {
+    const theme = useTheme();
+    return <Component {...props} theme={theme} />;
+  };
+};
 export default function MainTheme() {
     return (
       <I18nextProvider i18n={i18n}>
